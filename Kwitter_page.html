@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <title>Let's Chat Web App</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+    <script src="Kwitter_page.js"></script>
+
+
+</head>
+
+<body>
+
+    <h3 id="title" class="header">Let Chat  <sup><img src ="Pink phone logo.png"></sup></h3>
+
+    <button onclick="logout()" id="logout_button">Logout</button>
+
+    <center>
+	<div class="input_div_message_page">
+		<label>Send:</label>
+
+		<input type="text" class="form-control" placeholder="Message" id="msg">
+
+        <button onclick="send()">Send</button>
+
+        <div id="output"></div>
+
+		
+	</div>
+</center>
+
+
+
+
+</body>
+
+</html>
